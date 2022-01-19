@@ -1,0 +1,107 @@
+// Ana Carolina Simões Ramos
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(../../fonts/Poppins-ExtraLight.ttf);
+
+    font-family: 'Poppins-bold';
+    src: url(../../fonts/Poppins-Bold.ttf);
+
+
+}
+
+
+h1{
+    text-align: center;
+    font-family: 'Poppins', sans-serif ;
+    letter-spacing: 10px; 
+
+}
+
+body{
+    margin: 0;
+}
+
+.container-page{
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background: url(../../images/imgprincipal.jpg);
+    background-size: cover;
+}
+
+.logoPrincipal{
+    margin: 0;
+    text-align: center;
+    padding-top: 10%;
+}
+
+.slogan{
+    font-family: 'Poppins-bold', sans-serif;
+    text-align: center;
+    letter-spacing: 5px;
+    margin: 0;
+    padding: 2rem;
+    font-size: 40px;
+    
+}
+
+.linkForPage{
+    margin: 10% 20% 0 20%;
+    color: black;
+    font-family: 'Poppins', sans-serif ;
+    letter-spacing: 5px;
+    background-color: #7BB41C;
+    text-decoration: none;
+    border-radius: 50px;
+    padding: 1.5%;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    
+}
+
+// Responsividade da página inicial
+
+@media(max-width: 1024px){
+    
+    .slogan{
+        font-size: 20px;
+    }
+
+    .linkForPage{
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 732px){
+    
+    .slogan{
+        font-size: 20px;
+    }
+
+    .linkForPage{
+        font-size: 1rem;
+    }
+}
+
+@media(max-width: 540px){
+
+
+    .linkForPage{
+        font-size: 10px;
+        margin-top: 30%;
+    }
+}
+
+@media(max-width: 410px){
+
+
+    .linkForPage{
+        font-size: 11px;
+        margin: 30% 10% 0 10%;
+    }
+}
+
+
+

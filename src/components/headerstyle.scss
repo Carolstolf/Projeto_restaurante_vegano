@@ -1,0 +1,93 @@
+// Ana Carolina Simões Ramos
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(../fonts/Poppins-ExtraLight.ttf);
+}
+
+
+
+header{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.img-header{
+    background-color: #7BB41C;
+    padding-left: 10%;
+}
+
+.nav{
+    background-color: #7BB41C;
+    text-align: right;
+    height: 70px;
+    display: block;
+}
+
+.menu{
+    margin: 0 10% 0 0;
+}
+
+
+.menu .link{
+    clear: right;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: black;
+    margin: 0 10px;
+    line-height: 70px;
+    font-size: 30px;
+}
+
+label{
+    margin: 0 40px 0 0;
+    font-size: 30px;
+    line-height: 70px;
+    display: none;
+    width: 26px;
+    float: right;
+    
+}
+
+#toggle{
+    display: none;
+}
+
+// responsividade
+//Menu hamburguer feito com CSS
+@media only screen and (max-width: 654px){
+
+    label{
+        display: block;
+        cursor: pointer;
+        
+        
+    }
+
+    .menu{
+        text-align: center;
+        width: 100%;
+        display: none;
+        
+        
+    }
+
+    .nav{
+        height: auto;
+        min-height: 70px;
+        line-height: 70px;
+    }
+
+    .menu .link{
+        display: block;
+        border-bottom: 1px solid #EAEAEB;
+        margin: 0;
+    }
+
+    #toggle:checked + .menu{
+        display: block;
+    }
+
+}
+

@@ -1,0 +1,153 @@
+// Ana Carolina Simões Ramos
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(../../fonts/Poppins-ExtraLight.ttf);
+}
+
+.container-grid{
+    background-color: #FFBB54;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,2fr));
+    padding: 5%;
+
+}
+
+.h1drescription{
+    font-size: 2rem;
+}
+
+
+.container-delivery{
+    background-color: #FFBB54;
+}
+
+#delivery{
+    margin: 0;
+    padding: 2rem;
+}
+
+.delivery-info{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.7rem;
+    padding: 0 30% 0 30%;
+    text-align: center;
+}
+
+.container-options{
+    justify-content: center;
+    display: flex;
+    padding: 2rem;
+}
+
+.img-del{
+    margin-right: 2rem;
+}
+
+.container-cardapio{
+    background-color: white;
+}
+
+#cardapio{
+    background-color: white;
+    margin: 0;
+    padding-top: 2rem;
+}
+
+.container-dias{
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 5% 10% 5% 10%;
+
+}
+
+button{
+    margin-left: 1.2rem;
+    background-color: #FFBB54;
+    border: none;
+    text-align: center;
+    font-size: 25px;
+    display: inline-block;
+    border-radius: 50px;
+    padding: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+
+}
+
+button:hover{
+    color: #FFBB54;
+    background-color: #FFE1B5;
+
+}
+
+.d-block{
+    height: 700px;
+
+}
+
+
+.gridTest{
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(330px,2fr));
+}
+
+.img-grid{
+    text-align: center;
+}
+
+.nomepratogrid{
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 1rem;
+    
+}
+.list-tam-grid{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+.precogrid{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background-color: #7BB41C;
+    padding: 16px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    margin: 1rem 7rem 1rem 7rem;
+
+}
+
+// Responsividade do Cardápio
+
+@media (max-width: 1003px){
+
+    .h1drescription{
+        font-size: 1.4rem;
+    }
+    
+    .nomepratogrid{
+        font-size: 1.3rem;
+        
+    }
+
+    button{
+        font-size: 15px;
+    }
+
+    .precogrid{
+        font-size: 15px;
+    }
+
+    .delivery-info{
+        font-size: 20px;
+    }
+
+}
+
